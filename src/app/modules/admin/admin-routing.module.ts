@@ -8,7 +8,7 @@ import { ServicesComponent } from './components/services/services.component';
 
 const routes: Routes = [
   {
-    path: '',
+    path: '',  
     component: AdminDeshboardComponent,
     children: [
       { path: 'home', component: HomeComponent },

@@ -12,7 +12,15 @@ import { ServicesComponent } from './components/services/services.component';
 
 
 @NgModule({
-  declarations: [AdminDeshboardComponent, HeaderComponent, FooterComponent, HomeComponent, AboutComponent, ContactComponent, ServicesComponent],
+  declarations: [
+    AdminDeshboardComponent, 
+    HeaderComponent, 
+    FooterComponent, 
+    HomeComponent, 
+    AboutComponent, 
+    ContactComponent, 
+    ServicesComponent
+  ],
   imports: [
     CommonModule,
     AdminRoutingModule
